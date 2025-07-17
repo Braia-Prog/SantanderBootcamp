@@ -19,5 +19,5 @@ Este repositório foi criado com o objetivo de documentar minha jornada prática
 
 ## 🗂️ Projetos
 
-- [Projeto 01 - Primeiro site](./projeto-01-primeiro-site)
+- [Projeto 01 - Primeiro site](./Projeto-01-primeiro-site-html)
 - Projeto 02 - Em breve...
