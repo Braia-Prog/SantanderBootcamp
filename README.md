@@ -19,5 +19,6 @@ Este repositório foi criado com o objetivo de documentar minha jornada prática
 
 ## 🗂️ Projetos
 
-- [Projeto 01 - Primeiro site](./Projeto-01-primeiro-site-html)
-- Projeto 02 - Em breve...
+- [Projeto 01 - Estrutura Html](./Projeto-01-estrutura-html)
+- [Projeto 02 - Treinando semantica com a Wikipédia](./Projeto-02-Wikipédia-html)
+- [Projeto 03 - Clonando página da DIO](/Projeto-03-CloneDio-css)
