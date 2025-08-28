@@ -1,0 +1,158 @@
+@import url(reset.css);
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.cabecalho button {
+    border: none;      
+    padding: 0;         
+    cursor: pointer;    
+}
+
+.cabecalho-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 24px;
+    height: 20px;
+}
+
+.cabecalho-centro {
+display: flex;
+}
+
+.cabecalho-centro input {
+    margin-left: 100px;
+    width: 400px;
+    height: 40px;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.cabecalho-centro button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 60px; 
+    border: 1px solid #ccc;
+    border-left: none; 
+}
+
+
+.cabecalho-direita {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cabecalho-Perfil {
+    width: 32px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    margin: 1.5rem 1.5rem 0 5rem;
+}
+
+.principal-video {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    aspect-ratio: 16 / 9;
+}
+
+.principal-video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.principal-titulo {
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+}
+
+.principal-informacoes {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 10px 0 10px 0;
+    
+}
+
+.acao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.principal-perfil {
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.principal-informacoes button {
+    padding: 12px 35px;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #CC0000;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+}
+
+.paragrafo-segundo{
+    margin: 10px 0;
+    width: 60rem;
+    color: #515151;
+    line-height: 1.5;
+}
+
+.sugestoes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.sugestoes h3 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sugestoes p {
+    color: #515151;
+    font-size: 12px;
+    width: 150px;
+    padding-top: 5px;
+}
+
+.video-sugerido {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.video-sugerido img {
+    width: 160px;
+    height: 90px;
+    
+}
